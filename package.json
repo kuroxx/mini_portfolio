@@ -2,6 +2,7 @@
   "name": "mini_portfolio",
   "version": "1.0.0",
   "description": "Responsive portfolio website.",
+  "homepage": "https://kuroxx.github.io/mini_portfolio",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
@@ -10,6 +11,7 @@
   "author": "Anni Chen",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "sass": "^1.26.3"
   }
