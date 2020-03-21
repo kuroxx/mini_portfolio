@@ -1,0 +1,41 @@
+@import 'config';
+@import 'about';
+@import 'education';
+@import 'employment';
+@import 'experience';
+
+#content-page {
+  h1,h2,h3 {
+    padding: 0.2rem;
+  } 
+}
+
+h1 {
+  &.content-title {
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-shadow: 6px 6px rgba($dark-bg-color, 0.8);
+    text-decoration: line-through !important;
+    text-decoration-color: $dark-bg-color !important;
+  }
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0.2rem;
+}
+
+.section{ 
+  height: 100vh;
+  padding: 30px;
+  margin-left: $side-nav-width;
+}
+
+.quote {
+  margin-top: 2rem;
+  font-style: italic;
+  text-align: right;
+}

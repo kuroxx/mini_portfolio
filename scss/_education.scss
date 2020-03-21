@@ -1,0 +1,57 @@
+@import 'config';
+
+#edu-history {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // justify-content: space-between;
+  align-content: space-around;
+
+  div:first-child {
+    border: 2px solid $dark-bg-color;
+    box-shadow: -15px -15px $dark-bg-color;
+    border-style: dashed;
+    background-color: $light-bg-color;
+    padding: 1rem;
+    // margin: 1rem;
+  }
+
+  h3 {
+    text-shadow: 1px 1px $secondary-color;
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: 0.8rem;
+
+      p {
+        font-size: 1rem;
+        margin: 0.4rem;
+      }
+
+      a {
+        background: rgba($secondary-color, 0.8);;
+        padding: 0.2rem;
+        margin: 1rem;
+
+        &:hover {
+          background: $dark-bg-color;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+#edu-img {
+  img {
+    display: block;
+    width: 25vw;
+    // padding: 2rem;
+    box-shadow: 15px 15px $dark-bg-color;
+  }
+}

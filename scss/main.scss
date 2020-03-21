@@ -1,0 +1,158 @@
+@import 'config';
+@import 'navbar';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+// Headings
+h1, h2, h3 {
+  &.lg-heading {
+    padding-top: 6rem;
+    font-size: 6.5rem;
+    text-transform: uppercase;
+    text-shadow: 6px 6px rgba($dark-bg-color, 0.8);
+  }
+  
+  &.sm-heading {
+    color: $secondary-color;
+    padding-left: 4rem;
+    text-shadow: 2px 2px rgba($dark-bg-color, 1);
+    margin-bottom: 1rem;
+  }
+
+  &.content-heading {
+    padding: 0;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgba($dark-bg-color, 0.8);
+    text-decoration: line-through !important;
+    text-decoration-color: $dark-bg-color !important;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+span {
+  &.bold-text {
+    font-weight: bold;
+  }
+}
+
+#home {
+  background: $light-bg-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  #slogan {
+    text-shadow: 2px 2px rgba($secondary-color, 0.8);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .rect-deco {
+    display: block;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    background-color: $primary-color;
+    height: 10px;
+  }
+}
+
+#profile {
+  img {
+    height: 100%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .circle-deco { 
+    width: 400px;
+    height: 400px;
+    background: $secondary-color;
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 50%;
+    margin: 1rem;
+ }
+}
+
+#main-nav {
+  background: $secondary-color;
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+
+  div {
+    border: 4px solid $dark-bg-color;
+    padding: 1rem;
+
+    &:hover {
+      color: $secondary-color;
+      background-color: $dark-bg-color;
+    }
+  }
+}
+
+#main-header {
+  background-color: $light-bg-color;
+  font-size: 1.2rem;
+  height: $header-height;
+  padding: 1rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  
+  div {
+    padding: 1rem;
+
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: $light-bg-color;
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  height: $footer-height;
+}
+
+@import 'content';
+@import 'mobile';

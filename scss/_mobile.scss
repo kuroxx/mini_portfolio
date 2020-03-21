@@ -1,0 +1,96 @@
+// Widescreens ==============================
+@include mediaXl {
+}
+
+// Desktops & Laptops ==============================
+@include mediaLg {
+  // Home --------------------
+  h1, h2, h3 {
+    &.lg-heading {
+      padding-top: 4rem;
+      font-size: 4.5rem;
+    }
+    &.sm-heading {
+      padding-left: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  #home {
+    #slogan {
+      font-size: 1.4rem;
+
+    }
+  }
+  #profile {
+    .circle-deco { 
+      width: 300px;
+      height: 300px;
+   }
+  }
+  #main-nav {
+    font-size: 1.5rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Tablets & Small Laptops ==============================
+@include mediaMd {
+  // Home --------------------
+  h1, h2, h3 {
+    text-align: center;
+    &.lg-heading {
+      padding: 0;
+      font-size: 4rem;
+    }
+    &.sm-heading {
+      font-size: 1.5rem;
+    }
+  }
+  #home {
+    flex-direction: column;
+    #slogan {
+      font-size: 1.4rem;
+    }
+    .rect-deco {
+      width: 100%;
+    }
+  }
+  #profile {
+    padding-bottom: 2rem;
+    .circle-deco { 
+      width: 200px;
+      height: 200px;
+      margin: auto;
+    }
+  }
+  #main-header {
+      font-size: 1rem;
+  }
+  #main-nav {
+    padding: 1rem;
+    font-size: 1.2rem;
+    grid-gap: 1rem;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: $footer-height;
+  }
+}
+
+// Smartphones ==============================
+@include mediaSm {
+  // Home --------------------
+  h1, h2, h3 {
+    &.sm-heading {
+      font-size: 1.2rem;
+      padding: 0;
+    }
+  }
+  #main-header {
+    flex-direction: column;
+    justify-content: center;
+    div {
+      padding: 0;
+    }
+  }
+}
