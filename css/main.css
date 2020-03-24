@@ -75,12 +75,11 @@ span.bold-text {
   #home #slogan {
     text-shadow: 2px 2px rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 3rem;
-    padding-bottom: 3rem; }
+    padding-top: 1rem; }
   #home .rect-deco {
     display: block;
     position: absolute;
@@ -97,8 +96,8 @@ span.bold-text {
   margin-right: auto; }
 
 #profile .circle-deco {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background: #fff;
   -moz-border-radius: 70px;
   -webkit-border-radius: 70px;
