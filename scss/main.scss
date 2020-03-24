@@ -128,14 +128,15 @@ span {
   background-color: $light-bg-color;
   font-size: 1.2rem;
   height: $header-height;
-  padding: 1rem;
+  padding-top: 1rem;
   
   display: flex;
   flex-direction: row;
   justify-content: start;
   
   div {
-    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
 
     a:hover {
       color: $secondary-color;
