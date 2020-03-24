@@ -62,7 +62,7 @@ a {
   color: #333333; }
 
 p {
-  font-size: 1.25rem; }
+  font-size: 1.2rem; }
 
 span.bold-text {
   font-weight: bold; }
@@ -272,9 +272,9 @@ button {
   padding: 0.2rem; }
 
 h1.content-title {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: right;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   text-shadow: 6px 6px rgba(36, 62, 122, 0.8);
   text-decoration: line-through !important;
