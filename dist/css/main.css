@@ -62,7 +62,7 @@ a {
   color: #333333; }
 
 p {
-  font-size: 1.25rem; }
+  font-size: 1.2rem; }
 
 span.bold-text {
   font-weight: bold; }
@@ -75,12 +75,11 @@ span.bold-text {
   #home #slogan {
     text-shadow: 2px 2px rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 3rem;
-    padding-bottom: 3rem; }
+    padding-top: 1rem; }
   #home .rect-deco {
     display: block;
     position: absolute;
@@ -97,8 +96,8 @@ span.bold-text {
   margin-right: auto; }
 
 #profile .circle-deco {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background: #fff;
   -moz-border-radius: 70px;
   -webkit-border-radius: 70px;
@@ -273,9 +272,9 @@ button {
   padding: 0.2rem; }
 
 h1.content-title {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: right;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   text-shadow: 6px 6px rgba(36, 62, 122, 0.8);
   text-decoration: line-through !important;
